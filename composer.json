@@ -1,0 +1,10 @@
+{
+    "name": "geekclub/reservation",
+    "description": "Geek Club Reservation System",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "classmap": ["vendor/phpmailer/phpmailer/src/"]
+    }
+}
